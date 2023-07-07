@@ -1,21 +1,5 @@
 "use client";
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
-
 import { Fragment, useState } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
@@ -27,26 +11,19 @@ import {
 
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-
 // Import constants from index
-import {
-  currencies,
-  navigation,
-  categories,
-  collections,
-} from "@/constants";
+import { currencies, navigation, categories, collections } from "@/constants";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function Home() {
+  // Required by MobileMenu
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
 
   return (
     <div className="bg-white">
-
       {/* TODO: MobileMenu*/}
 
       {/* Hero section */}
@@ -510,7 +487,6 @@ export default function Home() {
       </main>
 
       {/* TODO: Footer goes here */}
-
     </div>
   );
 }
