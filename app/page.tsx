@@ -4,7 +4,6 @@
 import { categories, collections } from "@/constants";
 
 export default function Home() {
-  // Required by MobileMenu
   return (
     <div className="bg-white">
       <main>
