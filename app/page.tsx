@@ -1,20 +1,12 @@
 "use client";
 
-import { Fragment, useState } from "react";
-
 // Import constants from index
 import { categories, collections } from "@/constants";
 
 export default function Home() {
   // Required by MobileMenu
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="bg-white">
-      {/* MOVED: MobileMenu*/}
-
-      {/* MOVED: Hero section */}
-
       <main>
         {/* Category section */}
         <section
