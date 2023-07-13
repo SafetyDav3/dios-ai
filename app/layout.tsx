@@ -18,8 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <MobileMenu />
       <body className={inter.className}>
+        <MobileMenu />
         <Hero />
         {children}
         <Footer />
