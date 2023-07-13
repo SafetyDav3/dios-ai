@@ -192,8 +192,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      {/* TODO: Footer goes here */}
     </div>
   );
 }
