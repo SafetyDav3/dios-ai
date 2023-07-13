@@ -1,3 +1,5 @@
+"use client";
+
 import { footerNavigation } from "@/constants";
 
 const Footer = () => (
