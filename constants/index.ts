@@ -6,10 +6,9 @@ import {
 } from "@heroicons/react/20/solid";
 
 export const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Home", href: "#", current: true },
+  { name: "Compute Credits", href: "#", current: false },
+  { name: "About Us", href: "#", current: false },
 ];
 
 export const heroCards = [
