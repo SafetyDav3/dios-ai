@@ -1,4 +1,3 @@
-
 import { heroCards } from "@/constants";
 
 export default function Hero() {
