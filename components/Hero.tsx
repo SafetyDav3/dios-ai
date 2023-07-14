@@ -1,22 +1,5 @@
-import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/20/solid'
 
-const cards = [
-  {
-    name: 'Sales',
-    description: 'Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.',
-    icon: PhoneIcon,
-  },
-  {
-    name: 'Technical Support',
-    description: 'Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.',
-    icon: LifebuoyIcon,
-  },
-  {
-    name: 'Media Inquiries',
-    description: 'Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.',
-    icon: NewspaperIcon,
-  },
-]
+import { heroCards } from "@/constants";
 
 export default function Hero() {
   return (
@@ -53,7 +36,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-          {cards.map((card) => (
+          {heroCards.map((card) => (
             <div key={card.name} className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
               <card.icon className="h-7 w-5 flex-none text-indigo-400" aria-hidden="true" />
               <div className="text-base leading-7">
