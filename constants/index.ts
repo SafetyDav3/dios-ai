@@ -22,7 +22,7 @@ export const heroCards = [
   {
     name: "Project Integration",
     description:
-      "Esaily integrate the model into your project with our API like React, Next, Vue, and Svelte. {Coming Soon!}",
+      "Easily integrate the model into your project with our API like React, Next, Vue, and Svelte. {Coming Soon!}",
     icon: CodeBracketIcon,
   },
   {
