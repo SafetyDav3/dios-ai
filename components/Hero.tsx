@@ -36,9 +36,11 @@ export default function Hero() {
             AiDios
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            AiDios is a platform for AI-powered solutions and closed source
+            intergrations. Our mission is to provide the best AI solutions for
+            you. The AiDios LLM prompt generator intergrated with our Stable
+            Diffusion Transformer (SDT) is the first of many solutions we will
+            provide.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">

@@ -9,25 +9,26 @@ export const navigation = [
   { name: "Home", href: "#", current: true },
   { name: "Compute Credits", href: "#", current: false },
   { name: "About Us", href: "#", current: false },
+  { name: "Contact Us", href: "#", current: false },
 ];
 
 export const heroCards = [
   {
     name: "Adjustable Parameters",
     description:
-      "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.",
+      "With hundreds of parameters, you can adjust the model to your needs. We also have presets for common use cases.",
     icon: AdjustmentsVerticalIcon,
   },
   {
     name: "Project Integration",
     description:
-      "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.",
+      "Esaily integrate the model into your project with our API like React, Next, Vue, and Svelte. {Coming Soon!}",
     icon: CodeBracketIcon,
   },
   {
     name: "Always Improving",
     description:
-      "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.",
+      "Our team is always working to improve the model and add new features.",
     icon: BeakerIcon,
   },
 ];
