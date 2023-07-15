@@ -7,6 +7,11 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { classNames } from "@/utils";
 import { navigation } from "@/constants";
 
+import Link from "next/link";
+import Image from "next/image";
+
+import logo from "../app/public/ai-icon-64.png";
+
 export default function NavBar() {
   return (
     <Disclosure as="nav" className="bg-gray-800">
@@ -27,11 +32,14 @@ export default function NavBar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
-                  />
+                  <Link href="/">
+                    <Image
+                      src={logo}
+                      width={38}
+                      height={38}
+                      alt="AiDios Logo"
+                    />
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

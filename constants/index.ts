@@ -1,8 +1,8 @@
 // For heroCards
 import {
-  LifebuoyIcon,
-  NewspaperIcon,
-  PhoneIcon,
+  CodeBracketIcon,
+  BeakerIcon,
+  AdjustmentsVerticalIcon,
 } from "@heroicons/react/20/solid";
 
 export const navigation = [
@@ -13,22 +13,22 @@ export const navigation = [
 
 export const heroCards = [
   {
-    name: "Sales",
+    name: "Adjustable Parameters",
     description:
       "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.",
-    icon: PhoneIcon,
+    icon: AdjustmentsVerticalIcon,
   },
   {
-    name: "Technical Support",
+    name: "Project Integration",
     description:
       "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.",
-    icon: LifebuoyIcon,
+    icon: CodeBracketIcon,
   },
   {
-    name: "Media Inquiries",
+    name: "Always Improving",
     description:
       "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.",
-    icon: NewspaperIcon,
+    icon: BeakerIcon,
   },
 ];
 
