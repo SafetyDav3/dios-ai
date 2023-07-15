@@ -6,10 +6,10 @@ import {
 } from "@heroicons/react/20/solid";
 
 export const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Compute Credits", href: "#", current: false },
-  { name: "About Us", href: "#", current: false },
-  { name: "Contact Us", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Compute Credits", href: "/credits", current: false },
+  { name: "About Us", href: "/about", current: false },
+  { name: "Contact", href: "/contact", current: false },
 ];
 
 export const heroCards = [
